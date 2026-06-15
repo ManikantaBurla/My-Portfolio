@@ -11,13 +11,16 @@ import { Contact } from './components/Contact'
 function App() {
   return (
     <Router>
-      <main className="w-full min-h-screen relative bg-[#0a0a0a] overflow-hidden text-white">
+      {/* Added 'min-h-screen' to the main container to ensure it covers the device height */}
+      <main className="w-full min-h-screen bg-[#0a0a0a] text-white">
         
-        {/* Navigation bar fixed at the top */}
         <Navigation />
 
-        {/* Content area that swaps based on the URL */}
-        <div className="relative z-10 w-full h-full overflow-y-auto overflow-x-hidden pt-24">
+        {/* REMOVED: 'h-full' and 'overflow-y-auto' 
+            CHANGED: 'min-h-screen' and standard padding 
+            This allows the page to naturally scroll on mobile devices.
+        */}
+        <div className="w-full min-h-screen pt-28 pb-10 px-4 md:px-0">
           
           <Routes>
             <Route path="/" element={<Hero />} />

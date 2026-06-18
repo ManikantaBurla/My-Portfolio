@@ -51,8 +51,7 @@ export const AboutMe = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.1 }}
-            >
-              I don't just write code; I engineer ecosystems. My core philosophy is bridging the gap between intelligent, data-driven backends and visually stunning, frictionless user experiences. Whether I am fine-tuning a Machine Learning model or architecting a React component, the goal remains the same: solving complex problems with elegant solutions.
+            >I am a passionate developer driven by the desire to solve complex problems through programming and build engaging digital experiences. Whether I am engineering a machine learning model for heart disease prediction to tackle critical data challenges, or channeling my creativity into designing high-performance web applications like Mani-Worldstream, I thrive on turning ambitious ideas into functional reality.
             </motion.p>
 
             <motion.p 
@@ -61,7 +60,7 @@ export const AboutMe = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              My journey as a developer is defined by versatility. I fluidly pivot across diverse domains—from architecting sleek e-commerce platforms like Mani's Vogue and building complex media streaming clones, to developing community-focused logistical platforms like Narayana Patha. This range proves that I don't just understand syntax; I understand how to build for real people and specific use cases.
+             Beyond the screen, I am deeply committed to continuous personality development and maintaining a highly disciplined lifestyle. I find my balance through regular gym sessions, playing badminton, and expressing myself through music and dance. These pursuits keep me energized and have taught me the undeniable power of consistency. I believe in myself, and I apply that same unwavering dedication to my engineering career.
             </motion.p>
 
             <motion.p 
@@ -70,7 +69,7 @@ export const AboutMe = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.3 }}
             >
-              Beyond the IDE, I am constantly exploring the bleeding edge of tech, currently diving deep into the nuances of prompt engineering. Off the screen, I draw creative energy from the cinematic style and music of high-energy cinema, and I apply the strategic coordination required in fast-paced gaming environments to manage real-world esports tournaments and digital communities.
+              My journey in software development is defined by continuous growth. I actively embrace my errors and failures, viewing them not as setbacks, but as the essential experiences that refine my skills. Every bug I resolve and every architectural challenge I overcome makes me a more adaptable, resilient, and capable engineer.
             </motion.p>
           </div>
 

@@ -96,7 +96,7 @@ export const Hero = () => {
               }
             }}
           >
-            Full-Stack Web Developer & ML Enthusiast
+            AIML Engineer
           </motion.h2>
 
           <motion.p 

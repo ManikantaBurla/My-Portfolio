@@ -3,25 +3,32 @@ import { motion } from 'framer-motion'
 export const Certifications = () => {
   const certsData = [
     { 
+      title: "Python Essentials", 
+      issuer: "Cisco", 
+      year: "2024",
+      image: "python-cert.pdf", // Make sure this matches your file name in the public folder
+      link: "https://www.credly.com/badges/cd23ff61-b597-4333-b681-89eb6e725b57/linked_in_profile" 
+    },
+    { 
       title: "Responsive Web Design", 
       issuer: "freeCodeCamp", 
       year: "2024",
-      image: "webdesign.jpg", // Make sure this matches your file name in the public folder
-      link: "https://www.freecodecamp.org/certification/manikantaburla/responsive-web-design" // Paste your real link here
+      image: "webdesign.jpg", 
+      link: "https://www.freecodecamp.org/certification/manikantaburla/responsive-web-design" 
     },
     { 
       title: "AI / Machine Learning", 
       issuer: "Oracle", 
       year: "2024",
-      image: "oracle(aiml).jpg", // Make sure this matches your file name in the public folder
-      link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=11C4CFF8582BCB9790314772F47525F61E1372AE3202E32CADF34250078DA87C" // Paste your real link here
+      image: "oracle(aiml).jpg", 
+      link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=11C4CFF8582BCB9790314772F47525F61E1372AE3202E32CADF34250078DA87C" 
     },
     { 
       title: "DBMS Fundamentals", 
       issuer: "Scaler Academy", 
       year: "2024",
-      image: "scalar-dbms.jpg", // Make sure this matches your file name in the public folder
-      link: "https://moonshot.scaler.com/s/sl/0uX2f_X8tx?_gl=1*53yfco*_gcl_au*MTM5MTU5ODE5OC4xNzgxMjQ0NTY0*FPAU*MjE0NDUyMTY5Mi4xNzgxMjQ0NTY0*_ga*NTcxNTE5NDA3LjE3NjEwNTA4ODI.*_ga_53S71ZZG1X*czE3ODEyNDQ1NjMkbzQkZzEkdDE3ODEyNDQ2NjgkajE1JGwwJGg3OTE5ODc0NDA." // Paste your real link here
+      image: "scalar-dbms.jpg", 
+      link: "https://moonshot.scaler.com/s/sl/0uX2f_X8tx?_gl=1*53yfco*_gcl_au*MTM5MTU5ODE5OC4xNzgxMjQ0NTY0*FPAU*MjE0NDUyMTY5Mi4xNzgxMjQ0NTY0*_ga*NTcxNTE5NDA3LjE3NjEwNTA4ODI.*_ga_53S71ZZG1X*czE3ODEyNDQ1NjMkbzQkZzEkdDE3ODEyNDQ2NjgkajE1JGwwJGg3OTE5ODc0NDA." 
     }
   ];
 

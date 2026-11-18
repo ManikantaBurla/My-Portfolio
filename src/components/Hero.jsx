@@ -96,7 +96,7 @@ export const Hero = () => {
               }
             }}
           >
-            AIML Engineer
+            Full-Stack Developer & AIML Enthusiast
           </motion.h2>
 
           <motion.p 

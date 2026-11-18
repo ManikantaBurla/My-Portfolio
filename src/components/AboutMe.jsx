@@ -97,7 +97,7 @@ export const AboutMe = () => {
             >
               <Terminal className="text-purple-400 mb-4" size={28} />
               <h3 className="text-white font-semibold mb-2">Backend & APIs</h3>
-              <p className="text-sm text-slate-300">Building robust server architectures with PHP, Python, and Flask integrations.</p>
+              <p className="text-sm text-slate-300">Building robust server architectures with PHP, Python, Flask and django integrations.</p>
             </motion.div>
 
             <motion.div 

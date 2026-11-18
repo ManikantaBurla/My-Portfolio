@@ -11,14 +11,15 @@ export const Projects = () => {
       type: "Full-Stack Web App",
       description: "A robust streaming website featuring a stunning frontend UI paired with a reliable PHP backend.",
       skills: [
-        { name: "PHP", icon: <FaPhp /> }, 
+        { name: "Python", icon: <FaPython /> }, 
         { name: "MySQL", icon: <SiMysql /> }, 
         { name: "HTML5", icon: <FaHtml5 /> }, 
         { name: "CSS3", icon: <FaCss3Alt /> }, 
-        { name: "JavaScript", icon: <SiJavascript /> }
+        { name: "JavaScript", icon: <SiJavascript /> },
+        { name: "django", icon: <SiFlask /> }
       ],
       githubLink: "https://github.com/ManikantaBurla/Mani-WorldStream.git",
-      previewLink: "https://mani-worldstream.onrender.com"
+      previewLink: "https://mani-worldstream-django.onrender.com"
     },
     {
       title: "Heart Disease Prediction",

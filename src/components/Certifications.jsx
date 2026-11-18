@@ -6,7 +6,7 @@ export const Certifications = () => {
       title: "Python Essentials", 
       issuer: "Cisco", 
       year: "2024",
-      image: "python-cert.pdf", // Make sure this matches your file name in the public folder
+      image: "python-cert_page.jpg", // Make sure this matches your file name in the public folder
       link: "https://www.credly.com/badges/cd23ff61-b597-4333-b681-89eb6e725b57/linked_in_profile" 
     },
     { 
